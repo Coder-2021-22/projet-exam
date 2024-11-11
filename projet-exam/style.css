@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin:0
+}
+
+/* MENU */
+div.left {
+    display: inline;
+    width: 25%;
+    margin:0;
+    padding-left: 15px;
+    padding-top: 25px;
+    background-color: rgb(31, 31, 31);
+    color:white;
+}
+
+ul.menu {
+    padding-left: 15px;
+    list-style: none;
+}
+
+ul.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.menu a:hover {
+    text-decoration: underline;
+    color: rgb(0, 82, 175);
+}
+
+a:active {
+    color: white;
+}
+
+/*-------------------------------------------------------------------------*/
+/* CONTENT */
+div.right {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.main-title {
+    padding: 25px 0 25px 30px;
+    text-align: left;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url(https://jooinn.com/images/beautiful-clouds.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div.avant-propos {
+    padding-left: 25px;
+    padding-right: 25PX;
+    text-align: justify;
+}
